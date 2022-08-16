@@ -25,6 +25,8 @@ async function webCat(URL) {
     }
 }
 
+
+//possible ternary
 if (argv[2].startsWith('http')) {
     webCat(argv[2]);
 } else { cat(argv[2]); }
